@@ -1,1 +1,61 @@
-This is development branch
+
+
+GUIDELINES
+____________________________
+
+Do not push the dist folder 
+Write comments, leave your thought, I MUST KNOW WHAT'S IN YOUR HEAD <__<
+Refer to type def global when using custom types 
+
+
+MVP
+____________________________
+
+Backend 
+_______
+
+CRUD User
+-> User Model for the DB
+
+username
+score
+email
+password
+
+
+Model, Schema, and Conencting to the DB
+
+Mkdir
+_______
+
+Roody
+
+These folders should be made in the server_modules folder
+__
+configs folder => for the DB connection
+// write the logic
+
+Frankie
+__
+model folder => for the User's data and stuff like that
+// write the logic
+
+challenge yourself -> Make your schema typed
+
+
+Meet and Def
+
+
+
+
+
+Packages
+____________________________
+
+
+Mongoose
+jsonwebtoken
+Bycrpt -> Not using BycrptJS
+Apollo-express-server
+Graphql
+dotenv
