@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
     "typescript": "^4.4.4"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "node dist/server.js",
     "build": "tsc",
