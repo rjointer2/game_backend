@@ -1,9 +1,12 @@
 
-import { users } from "./resolvers/userResolver"
+import { users, createUser } from "./resolvers/userResolver"
 
 const resolvers = {
     Query: {
         users
+    },
+    Mutation: {
+        createUser
     }
 }
 

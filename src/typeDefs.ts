@@ -4,7 +4,7 @@ import { gql } from "apollo-server-express"
 export const typeDefs = gql`
 
     type User {
-        name: String
+        username: String
         email: String
         password: String
         score: Int
@@ -12,6 +12,10 @@ export const typeDefs = gql`
 
     type Query {
         users: [User]
+    }
+
+    type Mutation {
+        createUser( username: String, password: String, email: String ) :User
     }
 
 `;

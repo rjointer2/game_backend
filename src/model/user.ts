@@ -1,14 +1,14 @@
-import { Schema, model } from 'mongoose';
+import { Schema, model, Document } from 'mongoose';
 
-interface User extends Document {
-  name: string;
+export interface User extends Document {
+  username: string;
   email: string;
   password: string;
   score: number;
 }
 
 const schema = new Schema<User>({
-  name: { type: String, required: true },
+  username: { type: String, required: true },
   email: { type: String, required: true },
   password: { type: String, required: true },
 });

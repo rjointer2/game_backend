@@ -30,20 +30,27 @@ _______
 
 Roody
 
-These folders should be made in the server_modules folder
 __
-configs folder => for the DB connection
-// write the logic
 
 Frankie
 __
-model folder => for the User's data and stuff like that
-// write the logic
-
-challenge yourself -> Make your schema typed
 
 
-Meet and Def
+
+
+MVP
+_______
+
+
+CRUD user account mutation
+save their score mutation
+query all users
+
+function to has the passwords
+function to be check if a password if correct
+
+jwbtoken -> can't use cookies, or localStorage, 
+XXS authorzation -> req.header.authorzation => JWT, Bcrypt
 
 
 
